@@ -1,0 +1,25 @@
+#orderTable td,
+#orderTable th{
+    white-space: nowrap;
+}
+#orderTable th a.desc:after,
+#orderTable th a.asc:after{
+
+    -webkit-font-smoothing:antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+#orderTable th a.desc:after{
+    content:"\f078";
+}
+#orderTable th a.asc:after{
+    content:"\f078";
+
+}
